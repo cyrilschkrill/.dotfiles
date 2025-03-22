@@ -5,7 +5,7 @@ backup (){
 		cp ~/.vimrc ~/.dotfiles
 		cp ~/.functions.sh ~/.dotfiles
 		cp ~/.updateFunctions.sh ~/.dotfiles
-		cp ~/.backupFuntcions.sh ~/.dotfiles
+		cp ~/.backupFunctions.sh ~/.dotfiles
 	       	cp -r ~/.config/zsh ~/.dotfiles/.config/
 		cp -r ~/.local/share/fonts ~/.dotfiles/.local/share/fonts
 		cd ~/.dotfiles
