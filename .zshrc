@@ -6,7 +6,8 @@ export BROWSER=qutebrowser
 
 alias vi="vim"
 alias ls="ls --color=tty"
-alias ll="ls -1alG"
+alias ll="ls -1lG"
+alias lx="ls -ld .?*"
 alias resource="source ~/.zshrc"
 alias clr="clear"
 alias :!="exit"
