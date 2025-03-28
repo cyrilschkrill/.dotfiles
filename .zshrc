@@ -17,6 +17,7 @@ alias R="R --quiet"
 source ~/.functions.sh
 source ~/.updateFunctions.sh
 source ~/.backupFunctions.sh
+source ~/.latexFunctions.sh
 
 source ~/.config/zsh/zsh-vi-mode/zsh-vi-mode.plugin.zsh
 source ~/.config/zsh/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
