@@ -5,6 +5,7 @@ call plug#begin()
 
 Plug 'lervag/vimtex'
 "Plug 'iamcco/markdown-preview.nvim'
+Plug 'jalvesaq/Nvim-R'
 
 Plug 'SirVer/ultisnips'
 
@@ -19,3 +20,6 @@ let g:tex_conceal='abdmg'
 
 " markdown-preview config
 let g:mkdp_browser='qutebrowser'
+
+" UltiSnips config
+set rtp+=~/maths/
