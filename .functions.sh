@@ -15,3 +15,8 @@ GIT_CONFIG (){
 	fi
 }
 
+campdown (){
+	cd Music
+	/usr/bin/campdown $1
+	cd ~
+}
