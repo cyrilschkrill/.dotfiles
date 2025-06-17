@@ -41,3 +41,4 @@ source ~/.config/zsh/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zs
 
 alias zshrc='vi /home/schkrill/.zshrc'
 alias gdm='sudo systemctl start gdm'
+alias pcp='rsync -r --progress'
