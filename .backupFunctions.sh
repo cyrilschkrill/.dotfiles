@@ -9,6 +9,7 @@ backup (){
 		cp ~/.latexFunctions.sh ~/.dotfiles
 	       	cp -r ~/.config/zsh ~/.dotfiles/.config/
 		cp -r ~/.local/share/fonts ~/.dotfiles/.local/share/fonts
+		cp ~/.iSync.sh ~/.dotfiles/iSync.sh
 		cd ~/.dotfiles
 		git add .
 		git commit -m "### AUTOMATED BACKUP !!"
