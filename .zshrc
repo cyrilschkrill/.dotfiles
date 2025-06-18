@@ -1,4 +1,18 @@
-# Created by newuser for 5.9
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 if command -v tmux &> /dev/null && [ -z "$TMUX" ]; then
   tmux attach-session -t default || tmux new-session -s default
 fi
@@ -6,7 +20,7 @@ fi
 
 PS1="%n@%{$(tput setaf 33)%}%1d%{$(tput sgr0)%}$ "
 
-export BROWSER=qutebrowser
+export BROWSER="qutebrowser"
 
 alias vi="vim"
 dlmusic (){
@@ -42,3 +56,4 @@ source ~/.config/zsh/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zs
 alias zshrc='vi /home/schkrill/.zshrc'
 alias gdm='sudo systemctl start gdm'
 alias pcp='rsync -r --progress'
+alias sysctl='sudo systemctl'

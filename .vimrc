@@ -1,4 +1,5 @@
 set nu
+set relativenumber
 syntax on
 
 call plug#begin()
