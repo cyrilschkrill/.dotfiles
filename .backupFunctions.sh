@@ -26,7 +26,6 @@ backup (){
 	fi
 
 	if [ $1 = "iPhone" ]
-	idevicepair pair
 	then
 		idevicepair pair
 		idevicepair validate
