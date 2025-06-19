@@ -20,3 +20,10 @@ campdown (){
 	/usr/bin/campdown $1
 	cd ~
 }
+
+config (){
+	if [ $1 = hyprland ]
+	then
+		vi ~/.config/hypr/hyprland.conf
+	fi
+}
