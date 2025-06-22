@@ -14,6 +14,8 @@ dlmusic (){
 	cd ~/Music/ && campdowm $1 && vlc $2
 }
 alias clock='peaclock'
+alias metronome='python ~/metronome-cli/metronome.py'
+alias iddgr='idevicepair pair && idevicepair validate && ifuse --documents "com.duckduckgo.mobile.ios" ~/mnt/iPhone/DuckDuckGo'
 alias ls="ls --color=tty"
 alias ll="ls -1lG"
 alias lx="ls -ld .?* "
@@ -44,3 +46,10 @@ alias zshrc='vi /home/schkrill/.zshrc'
 alias gdm='sudo systemctl start gdm'
 alias pcp='rsync -r --progress'
 alias sysctl='sudo systemctl'
+
+alias update-grub='grub-mkconfig -o /boot/grub/grub.cfg'
+alias print-landscape='lp -o landscape -o fit-to-page -o media=A4 '
+
+alias open='zathura'
+source ~/Scripts/get_ext.sh
+alias :q='exit'
